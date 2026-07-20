@@ -1,0 +1,17 @@
+{
+  "name": "lcc-playwright-tests",
+  "description": "Playwright test suite for LCC - Lakshmi Card Clothing sales website and app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "npx playwright test",
+    "test:smoke": "npx playwright test tests/smoke/",
+    "test:regression": "npx playwright test tests/regression/",
+    "test:headed": "npx playwright test --headed",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "dotenv": "^16.4.7"
+  }
+}
