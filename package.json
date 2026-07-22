@@ -8,6 +8,7 @@
     "test:smoke": "npx playwright test tests/smoke/",
     "test:regression": "npx playwright test tests/regression/",
     "test:headed": "npx playwright test --headed",
+    "codegen": "npx playwright codegen --test-id-attribute=data-testid",
     "report": "npx playwright show-report"
   },
   "devDependencies": {
